@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container
+{
+ @apply flex;
+}
+.category_name
+{
+    @apply text-slate-300 font-semibold ;
+}
+
+.product_name
+{
+    @apply font-medium;
+}
+
+.product_img
+{
+    @apply h-96;
+    @apply w-full;
+    @apply mt-10;
+    @apply rounded-xl;
+
+}
+.item_container
+{
+    @apply ml-52;
+    @apply mt-40;
+    @apply w-4/5;
+    
+}
+
+.item_details
+{
+    @apply mt-56;
+    @apply ml-32;
+    @apply w-full;
+}
+
+.product_title
+{
+    @apply text-3xl;
+    @apply font-semibold ;
+    @apply text-gray-900;
+}
+
+.product_price
+{
+    @apply text-3xl mt-3 text-gray-700 ;
+   
+}
+
+
+.radio:focus
+{
+    @apply bg-blue-600 ring-offset-4 ring-2 appearance-none   rounded-full  w-5 h-5 mb-[2px];
+}
+
+.size:focus
+{
+    @apply bg-black text-white;
+}
